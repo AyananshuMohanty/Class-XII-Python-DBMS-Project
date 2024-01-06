@@ -5,7 +5,7 @@ Created on Sun Jan 31 20:21:53 2021
 @author: Ayananshu Mohanty
 """
 import mysql.connector
-connection_object=mysql.connector.connect (host="DESKTOP-ANVNLP2", user="Ayananshu", passwd="somethingMemo", database="employee_management")
+connection_object=mysql.connector.connect (host="DESKTOP-ANVNLP2", user="Ayananshu", passwd="undergroundSamurai", database="employee_management")
 if connection_object.is_connected():
     print('Successful')
 else:
